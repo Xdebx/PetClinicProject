@@ -1,0 +1,45 @@
+body 
+{
+	background: #1690A7;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+form
+{
+	width: 40pc;
+	border: 2px solid #ccc;
+	padding: 50px;
+	background: #fff;
+	border-radius: 15px;
+}
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+input
+{
+	display: block;
+	border: 2px solid #ccc;
+	width: 500px;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: ;
+}
+.buttons {
+  margin: 0;
+  position: absolute;
+  top: 440px;
+  left: 1000px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  letter-spacing: 3px;
+}
+.cancels
+{
+  margin: -19px 130px;
+}
